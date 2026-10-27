@@ -20,7 +20,7 @@ Wenhao Yan<sup>6,◇</sup>, Haodong Li<sup>7,◇</sup>, <a href="http://eic.hust
 </p>
 
 <p>
-<a href="https://github.com/hustvl/FVQ"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=github" alt="Code"></a>
+<a href="https://doctor-james.github.io/FVQ-Page/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
 <a href="https://huggingface.co/hustvl/FVQ"><img src="https://img.shields.io/badge/Hugging%20Face-Models-yellow?logo=huggingface" alt="Models"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
 </p>
