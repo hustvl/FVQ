@@ -1,0 +1,23 @@
+# Example runtime; the tokenizer remains frozen.
+checkpoint: outputs/alignment/step-100000 # replace with your actual completed snapshot
+data: configs/pt_data.json5
+output: outputs/pt
+cache: cache/pt
+precision: bf16
+seed: 42
+train_llm: true
+data_mode: pretrain
+overlength: filter
+lr: 0.00001
+min_lr: 0.000001
+scheduler: cosine
+warmup_steps: 1000
+steps: 100000
+epochs: 1
+betas: [0.9, 0.999]
+weight_decay: 0.0
+clip_grad: 1.0
+accumulation: 1
+save_steps: 5000
+max_length: 16384
+max_pixels: 1048576

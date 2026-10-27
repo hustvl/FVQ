@@ -1,0 +1,8 @@
+// Alignment and PT: replace the demo paths with your JSONL sources.
+{
+  train_files: {
+    root: "../data/demo",
+    sample_rate: { "pt.jsonl": 1.0, "text_pt.jsonl": 0.1 },
+    stream_sample: false,
+  },
+}

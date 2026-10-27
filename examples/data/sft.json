@@ -1,0 +1,18 @@
+[
+  {
+    "images": ["images/example.png"],
+    "messages": [
+      {"role": "user", "content": "<image>\nDescribe the image."},
+      {"role": "assistant", "content": "A red square on a white background.", "learnable": true},
+      {"role": "user", "content": "How many corners does it have?"},
+      {"role": "assistant", "content": "Four corners.", "learnable": true}
+    ]
+  },
+  {
+    "images": ["images/example.png"],
+    "messages": [
+      {"role": "user", "content": "<image>\nHow many sides does this shape have?"},
+      {"role": "assistant", "content": "<think>The red shape is a square. A square has four sides.</think>\nFour.", "learnable": true}
+    ]
+  }
+]

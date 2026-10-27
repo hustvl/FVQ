@@ -1,0 +1,8 @@
+// SFT sources may be JSON arrays or JSONL. Use your own sampling rates.
+{
+  train_files: {
+    root: "../data/demo",
+    sample_rate: { "sft.json": 1.0, "text_sft.json": 0.1 },
+    stream_sample: false,
+  },
+}

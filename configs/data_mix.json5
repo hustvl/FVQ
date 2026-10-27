@@ -1,0 +1,11 @@
+// Paths are examples relative to this manifest. Supply your own local data.
+{
+  train_files: {
+    root: "../data",
+    sample_rate: {
+      "image_text.jsonl": 1.0,
+      "text.jsonl": 0.1,
+    },
+    stream_sample: false,
+  },
+}

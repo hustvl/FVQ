@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fvq"
+version = "0.1.0"
+description = "Feature-only factorized visual quantization and visual-language inference"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["torch>=2.6", "transformers==4.57.0", "safetensors>=0.4", "Pillow", "numpy"]
+
+[project.optional-dependencies]
+training = ["PyYAML", "json5", "accelerate>=1.0", "deepspeed>=0.14.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+license-files = ["LICENSE", "licenses/transformers-LICENSE", "THIRD_PARTY_NOTICES.md"]

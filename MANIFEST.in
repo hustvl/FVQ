@@ -1,0 +1,12 @@
+include README.md DATA.md THIRD_PARTY_NOTICES.md VALIDATION.md
+recursive-include licenses *
+recursive-include configs *.yaml
+recursive-include configs *.json5
+recursive-include examples *.py
+recursive-include examples *.json *.jsonl *.md
+recursive-include scripts *.sh
+recursive-include tools *.py
+recursive-include training *.py
+recursive-include tests *.py
+recursive-include docs *.png
+recursive-include docs *.md

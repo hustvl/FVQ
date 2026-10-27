@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+checkpoints/
+outputs/
+/data/
+cache/
+*.sqlite
+*.building
+.env

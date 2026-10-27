@@ -1,0 +1,23 @@
+# Example recipe, not an exact reproduction of a private distributed run.
+checkpoint: checkpoints/FVQ/FVQ-8B
+data: configs/pt_data.json5
+output: outputs/alignment
+cache: cache/alignment
+precision: bf16
+seed: 42
+train_llm: false
+data_mode: pretrain
+overlength: filter  # counted and reported; malformed records always fail
+lr: 0.0002
+min_lr: 0.00002
+scheduler: cosine
+warmup_steps: 1000
+steps: 100000
+epochs: 1
+betas: [0.9, 0.999]
+weight_decay: 0.0
+clip_grad: 1.0
+accumulation: 1
+save_steps: 5000
+max_length: 16384
+max_pixels: 1048576

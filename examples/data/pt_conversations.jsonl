@@ -1,0 +1,1 @@
+{"images": ["images/example.png"], "messages": [{"role": "user", "content": "<image>\nWhat shape is shown?"}, {"role": "assistant", "content": "A red square."}], "eosloss": true}
