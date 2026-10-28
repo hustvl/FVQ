@@ -20,6 +20,7 @@ Wenhao Yan<sup>6,◇</sup>, Haodong Li<sup>7,◇</sup>, <a href="http://eic.hust
 </p>
 
 <p>
+<a href="https://arxiv.org/abs/2610.37662"><img src="https://img.shields.io/badge/arXiv-2610.37662-b31b1b.svg" alt="Paper"></a>
 <a href="https://doctor-james.github.io/FVQ-Page/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
 <a href="https://huggingface.co/hustvl/FVQ"><img src="https://img.shields.io/badge/Hugging%20Face-Models-yellow?logo=huggingface" alt="Models"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
@@ -382,6 +383,25 @@ training extras:
 ```bash
 pip install PyYAML json5
 python -m unittest discover -s tests -v
+```
+
+## 📖 Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@misc{zou2026discrete,
+  title         = {Can Discrete Tokens Serve as Semantically Lossless
+                   Representations of Visual Signals?},
+  author        = {Zou, Jialv and Li, Xiaotong and Yue, Zhengrong and
+                   Huang, Xu and Luo, Yaxin and Yan, Wenhao and Li, Haodong
+                   and Liu, Wenyu and Wang, Xinggang},
+  year          = {2026},
+  eprint        = {2610.37662},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2610.37662}
+}
 ```
 
 ## 📄 License and Acknowledgements
